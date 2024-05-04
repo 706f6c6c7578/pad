@@ -17,3 +17,4 @@ Usage: **pad -p 4096 < infile > outfile**, to unpad: **pad -u < infile > outfile
 uint64t value is a little endian binary number representing byte_length(content).
 ```
 
+To compute the byte size to pad for an even file size you may use the helper bash script padding.sh.
